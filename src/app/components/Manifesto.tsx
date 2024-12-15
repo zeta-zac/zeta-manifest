@@ -55,7 +55,7 @@ export default function Manifesto() {
         </section>
         <section>
           <h2 className="text-2xl font-semibold text-[#2F4CE3] mb-3">
-            Our Commitment
+            Commitment
           </h2>
           <p className="text-gray-700">
             Committed to preserving the true essence of Cardano while pushing
