@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: "export",
-  basePath: "/zeta-manifest",
+  // basePath: "/zeta-manifest",
   images: {
     unoptimized: true,
   },
