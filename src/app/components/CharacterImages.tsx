@@ -5,7 +5,7 @@ export function CharacterSuitImage() {
     <div className="relative flex justify-center">
       <div className="relative w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
         <Image
-          src="/character.png"
+          src="/public/character.png"
           alt="Representative Character"
           fill
           style={{ objectFit: "contain" }}
@@ -13,7 +13,7 @@ export function CharacterSuitImage() {
       </div>
       <div className="relative w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
         <Image
-          src="/character.png"
+          src="/public/character.png"
           alt="Representative Character"
           fill
           style={{ objectFit: "contain" }}
@@ -29,7 +29,7 @@ export function CharacterDeskImage() {
     <div className="relative flex justify-center">
       <div className="relative w-[340px] h-[190px] md:w-[480px] md:h-[265px]">
         <Image
-          src="/desk-panda.png"
+          src="public/desk-panda.png"
           alt="Representative Character At desk"
           fill
           style={{ objectFit: "contain" }}
