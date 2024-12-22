@@ -19,6 +19,8 @@ export default {
         // sans: ['var(--font-geist-sans)', ...fontFamily.sans],
         // mono: ['var(--font-geist-mono)', ...fontFamily.mono],
         didot: ["var(--font-didot)", "serif"],
+        geist_mono: ["var(--font-geist-mono)", "monospace"],
+        geist_sans: ["var(--font-geist-sans)", "sans-serif"],
       },
     },
   },
