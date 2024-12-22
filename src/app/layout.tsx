@@ -33,7 +33,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z Manifest",
+  title: "Z Manifesto",
   description: "Coming to get ya vote and better Cardano!",
 };
 
