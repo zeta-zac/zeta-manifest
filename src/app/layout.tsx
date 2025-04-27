@@ -6,50 +6,50 @@ import Header from "@/app/components/Header";
 import localFont from "next/font/local";
 
 const didotFont = localFont({
-  src: [
-    {
-      path: "./fonts/Didot.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      // path: "./fonts/Didot Title.otf",
-      path: "./fonts/Headton-m2PVx.otf",
-      weight: "500",
-      style: "italic",
-    },
-  ],
-  variable: "--font-didot",
+	src: [
+		{
+			path: "./fonts/Didot.otf",
+			weight: "400",
+			style: "normal",
+		},
+		{
+			// path: "./fonts/Didot Title.otf",
+			path: "./fonts/Headton-m2PVx.otf",
+			weight: "500",
+			style: "italic",
+		},
+	],
+	variable: "--font-didot",
 });
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+	variable: "--font-geist-sans",
+	subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+	variable: "--font-geist-mono",
+	subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Z Manifesto",
-  description: "Coming to get ya vote and better Cardano!",
+	title: "Zeta Manifesto",
+	description: "Coming to get ya vote and better Cardano!",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${didotFont.variable} antialiased min-h-screen bg-red text-[#2F4CE3] font-['Inter',sans-serif]`}
-      >
-        <Header />
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body
+				className={`${geistSans.variable} ${geistMono.variable} ${didotFont.variable} antialiased min-h-screen text-[#2F4CE3]`}
+			>
+				<Header />
+				{children}
+			</body>
+		</html>
+	);
 }
